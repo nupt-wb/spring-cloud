@@ -1,3 +1,6 @@
+/Users/bwing/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/com/atguigu/rules/MyselfRule.java
+/Users/bwing/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/com/atguigu/lb/LoadBalance.java
+/Users/bwing/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/com/atguigu/lb/MyLB.java
 /Users/bwing/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/OrderMain80.java
 /Users/bwing/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/controller/OrderController.java
 /Users/bwing/IdeaProjects/cloud2020/cloud-consumer-order80/src/main/java/com/atguigu/springcloud/config/ApplicationConfig.java
