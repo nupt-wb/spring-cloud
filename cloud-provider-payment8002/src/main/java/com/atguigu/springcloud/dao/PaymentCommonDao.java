@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 @Mapper
-public interface PaymentDao {
+public interface PaymentCommonDao {
 
     int create(Payment payment);
 
