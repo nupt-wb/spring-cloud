@@ -2,7 +2,7 @@ package com.atguigu.springcloud.controller;
 
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
-import com.atguigu.springcloud.service.PaymentService;
+import com.atguigu.springcloud.service.PaymentCommonService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 public class PaymentController {
 
     @Resource
-    private PaymentService paymentService;
+    private PaymentCommonService paymentService;
 
 
     @Value("${server.port}")

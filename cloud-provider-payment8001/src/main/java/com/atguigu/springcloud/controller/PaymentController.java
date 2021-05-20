@@ -2,7 +2,7 @@ package com.atguigu.springcloud.controller;
 
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
-import com.atguigu.springcloud.service.PaymentService;
+import com.atguigu.springcloud.service.Payment8001Service;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class PaymentController {
 
     @Resource
-    private PaymentService paymentService;
+    private Payment8001Service paymentService;
 
 
     @Value("${server.port}")

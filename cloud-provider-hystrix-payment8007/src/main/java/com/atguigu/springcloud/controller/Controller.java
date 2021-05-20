@@ -22,4 +22,9 @@ public class Controller {
     public String error(@PathVariable("id")Long id){
         return paymentService.error(id,0);
     }
+
+    @GetMapping(value = "/payment/hystrix/circuit/breaker/{id}")
+    public String circuitBreaker(@PathVariable("id") Long id){
+        return paymentService.paymentCircuitBreaker(id);
+    }
 }
